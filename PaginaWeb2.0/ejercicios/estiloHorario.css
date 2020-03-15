@@ -1,0 +1,111 @@
+
+body{
+	margin: 25px;
+	background-color: #e0e1eb;
+}
+ 
+h1{
+	font-size: 60px;
+	color: red;
+	font-family: verdana;
+}
+ 
+ 
+#horario table{
+	border-collapse: collapse;
+	border: 1px solid blue;
+	width: 40%;
+}
+
+#horario th{
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	background-color: blue;
+	border: 1px solid black;
+	padding-left: 50px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 50px;
+}
+
+td.recreo{
+	padding: 0.02em;
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+
+td.hora {
+	background-color: blue;
+	color: white;
+	padding: 0.4em;
+	border: 1px solid black;
+	text-align: center;
+}
+
+td.horarecreo {
+	background-color: blue;
+	color: white;
+	padding: 0.02em;
+	border: 1px solid black;
+	text-align: center;
+}
+
+td.marcas {
+	background-color: red;
+	color: black;
+	padding: 0.4em;
+	border: 1px solid black;
+	text-align: center;
+}
+
+td.ingles {
+	background-color: grey;
+	color: black;
+	padding: 0.4em;
+	border: 1px solid black;
+	text-align: center;
+}
+
+td.entornos {
+	background-color: olive;
+	color: black;
+	padding: 0.4em;
+	border: 1px solid black;
+	text-align: center;
+}
+
+td.fol {
+	background-color: purple;
+	color: black;
+	padding: 0.4em;
+	border: 1px solid black;
+	text-align: center;
+}
+
+td.bases {
+	background-color: yellow;
+	color: black;
+	padding: 0.4em;
+	border: 1px solid black;
+	text-align: center;
+}
+
+td.sistemas {
+	background-color: white;
+	color: black;
+	padding: 0.4em;
+	border: 1px solid black;
+	text-align: center;
+}
+
+td.prog {
+	background-color: green;
+	color: black;
+	padding: 0.4em;
+	border: 1px solid black;
+	text-align: center;
+}
+
+

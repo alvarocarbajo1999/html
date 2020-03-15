@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+	<link type="text/css" href="hojaDeEstilos.css" rel="stylesheet">
+    <title>css</title>
+	<meta charset="UTF-8">
+  </head>
+  
+	<body>
+		<header>
+			<nav>
+				<ul>
+					<li><a href="">MENU: </a></li>
+					<li><a href="index.html">INDEX</a></li>
+					<li><a href="html.html">HTML</a></li>
+					<li><a href="css.html">CSS</a></li>
+					<li><a href="javascript.html">JAVASCRIPT</a></li>
+					<li><a href="examenes.html">EXAMENES</a></li>
+					<li><a href="ejercicios.html">EJERCICIOS</a></li>
+					<li><a href="https://www.w3schools.com/html/" target="_blank">W3SCHOOLS</a></li>
+				</ul>
+			</nav>
+		</header>
+	  
+	<br>
+	<h1><ins>CSS</ins></h1>
+	
+	<div class="h3"><h3>CSS</h3></div>
+	<div class="p"><p>CSS, siglas en español: «Hojas de estilo en cascada», es un lenguaje de diseño gráfico para definir y crear la presentación de un documento escrito en un lenguaje de marcado. Es muy usado para establecer el diseño visual de los documentos web, e interfaces de usuario escritas en HTML o XHTML.</p></div>
+	
+	<div class="h3"><h3>Formas de aplicar css:</h3></div>
+	<div class="p">
+		<ul>
+			<li>Inline: Dentro de un único tag con &lt;p style="color:red";&gt; por ejemplo.</li>
+			<li>Internal: Dentro del propio fichero html en el &lt;body&gt;, en el tag &lt;style&gt;.</li>
+			<li>External: En un archivo distinto .css que se aplica al html mediante &lt;link type="text/css" href="./hojasdeestilo.css"&gt; dentro del head.</li>
+		</ul>
+	</div>
+	
+	<div class="h3"><h3>&lt;style&gt;&lt;/style&gt;</h3></div>
+	<div class="p">
+		<p>Se usa dentro de un documento HTML para modificar estilos de forma interna sin tener un archivo css diferenciado del html.</p>
+		<pre>
+	Ejemplo:
+		&lt;style&gt;
+			p{border: 1px solid powderblue;}	
+			h1{font-style: "italic";}
+		&lt;/style&gt;
+		</pre>
+	</div>
+	
+	<div class="h3"><h3>Colores:</h3></div>
+	<div class="p">
+		<p>Sirven para colorear la página web.</p>
+		<p>Ejemplos:</p>
+			<ul>
+				<li>background-color: powderblue; Sirve para pintar el fondo del elemento.</li>
+				<li>color: red; Sirve para cambia el color de letra.</li>
+				<li>border: 2px solid Tomato; Sirve para colorear bordes de elementos.</li>
+				<li>padding: 30px; Define un espacio entre el texto y el borde.</li>
+				<li>margin: 50px; Define un espacio fuera del borde.</li>
+			</ul>
+	</div>
+	
+	<div class="h3"><h3>Especificación del color:</h3></div>
+	<div class="p">
+		<p>Se puede explicar el color de cada elemento de varias formas:</p>
+			<ul>
+				<li>Por nombre: Tomato</li>
+				<li>RGB tres valores red, green, blue. [0-255]: rgb(255, 99, 71)</li>
+				<li>RGB tres valores red, green, blue. [0-255]: rgb(255, 99, 71)</li>
+				<li>RGBA cuatro valores RGB + Transparencia [0-1]: rgba(255, 99, 71, 0.5)</li>
+				<li>HEX en hexadecimal: #ff6347</li>
+			</ul>
+	</div>
+	
+	<div class="h3"><h3>Tipo de letra</h3></div>
+	<div class="p">
+		<p>Sirve para cambiar las fuentes.</p>
+		<p>Tipos:</p>
+		<ul>
+			<li>font-family: Sirve para cambiar el tipo de letra. Menos comic sans que es basura.</li>
+			<li>text-align: Sirve para alinear textos.</li>
+			<li>font-style: Sirve para poner tipos de letra italic para <i>cursiva</i>...</li>
+			<li>font-size: Sirve para cambiar el tamaño de letra.</li>
+		</ul>
+	</div>
+	
+	<div class="h3"><h3>Elementos de formateo:</h3></div>
+	<div class="p">
+		<pre>
+	&lt;b&gt; 		- <b>Negrita</b>
+	&lt;strong&gt; 	- <strong>Texto importante</strong>
+	&lt;i&gt; 		- <i>Cursiva</i>
+	&lt;em&gt; 		- <em>Texto emfatizado</em>
+	&lt;mark&gt;		- <mark>Texto marcado</mark>
+	&lt;small&gt;		- <small>Texto pequeño</small>
+	&lt;del&gt; 		- <del>Tachado</del>
+	&lt;ins&gt;		- <ins>Subrallado</ins>
+	&lt;sub&gt;		- <sub>Subíndices</sub>
+	&lt;sup&gt;		- <sup>Superíndices</sup></pre>
+	</div>
+	
+	<div class="h3"><h3>Ids y Clases</h3></div>
+	<div class="p"><p>Se usan para aplicar estilos a solo los elementos pertenecientes a una clase o id concreta. 
+	&lt;p id="alvaro" class="dual1";&gt; </p>
+	<pre>
+	Ejemplo:
+		Asignación:
+		&lt;p id="p01"&gt;Soy de id: "p01"&lt;/p&gt;
+		
+		Uso:
+		#p01 {
+			color: blue;
+			font-style:"italic";
+		}
+		
+		Asignación:
+		&lt;p class="clase1"&gt;Soy de clase: "clase1"&lt;/p&gt;
+		
+		Uso:
+		p.clase1 {
+			color: red;
+		}</pre>
+	</div>
+	
+	<div class="h3"><h3>Enlaces</h3></div>
+	<div class="p">
+		<p>Sirven para modificar como se ven tus links en todos sus posibles estados:</p>   
+		<p>Estados:</p>
+			<ul>
+				<li>a:link - normal, o sin visitar.</li>
+				<li>a:hover - cuándo pasas el cursor por encima.</li>
+				<li>a:active - en el momento en que se clickea.</li>
+				<li>text-decoration: none; - se suele usar para quitar las lineas bajo el link.</li>
+				<li>padding y elementos de color - sirven para que los links parezcan botones.</li>
+			</ul>
+	</div>
+	
+	<div class="h3"><h3>Tablas</h3></div>
+	<div class="p">
+		<p>No deben usarse para maquetar, solo para poner tablas dentro de la web.</p>
+		<p>Ejemplos:</p> 
+		<ul>
+			<li>width y height sirven para poner las dimensiones de la tabla.</li>
+			<li>border sirve para poner el borde, grosor en píxeles y color.</li>
+			<li>border-collapse sirve para poner donde debe el borde debe convertirse en único.</li>
+			<li>colspan sirve para que una celda ocupe dos o más huecos de una fila.</li>
+			<li>rowspan lo mismo que colspan pero con filas.</li>
+			<li>tr:hover sirve para acentuar de un color la fila seleccionada con el mouse.</li>
+			<li>tr:nth-child(even) {background-color: #f2f2f2;}  Sirve para colorear solo los elementos pares/impares con even y odd. nth para cualquier, first para el primero.</li>
+		</ul>
+	</div>
+	
+	<footer>
+		<hr>
+		<p>Página web creada por Álvaro Carbajo</p>
+	</footer>
+</body>
+</html>

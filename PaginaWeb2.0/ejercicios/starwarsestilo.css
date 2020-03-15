@@ -1,0 +1,97 @@
+@font-face {
+  font-family: "StarWars";
+  src: url("fuentes/Starjedi.ttf");
+}
+
+div{
+	border: 3px solid;
+	border-color: #cc101f;
+}
+
+div.titulo{
+	color: #fffb00;
+	height: 70px;
+	margin-top: 35px;
+	text-align: center;
+	margin-bottom: 20px;
+	background-image: url("img/estrellas.jpg");
+	font-family: "StarWars";
+}
+
+div.intro{
+	height: 500px;
+	color: #fffb00;
+	width: 250px;
+	text-align: center;
+	display: inline-block;
+	float: left;
+	margin-right: 30px;
+	background-image: url("img/estrellas.jpg");
+}
+
+div.parrafo{
+	height: 105px;
+	color: white;
+	text-align: justify;
+	margin-bottom: 25px;
+	background-image: url("img/volcan.jpg");
+}
+
+div.tabla{
+	position: absolute;
+	color: white;
+	height: 500px;
+	display: inline-block;
+	width: 82.5%;
+	background-image: url("img/volcan.jpg");
+}
+
+img{
+	display: inline-block;
+	height: 420px;
+	width: 470px;
+	padding-left: 200px;
+	padding-top: 0px;
+}
+
+div.parrafo2{
+	height: 150px;
+	color: white;
+	text-align: justify;
+	margin-top: 548px;
+	background-image: url("img/volcan.jpg");
+}
+
+body{
+	background-image: url("img/starwarsfondo.jpg");
+	margin-left: 40px;
+	margin-right: 40px;
+	font-size: 18px;
+}
+
+div.tabla h2{
+	margin-left: 40px;
+	margin-bottom: 0px;
+	margin-top: 30px;
+}
+
+
+h2{
+	color: white;
+	font-family: "StarWars";
+}
+
+td{
+	border: 2px solid white;
+}
+
+table{
+	margin-left:  40px;
+	margin-bottom: 20px;
+	margin-right: 20px;
+	display: inline-block;
+}
+
+h1{
+	margin-top: 10px;
+}	

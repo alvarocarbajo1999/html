@@ -1,0 +1,83 @@
+
+ body{
+	margin: 25px;
+	background-color: #e0e1eb;
+ }
+ 
+ h1{
+	font-size: 60px;
+	color: red;
+	font-family: verdana;
+ }
+ 
+h3{
+	color: blue;
+	font-size: 21px;
+}
+
+table, th, td{
+	border: 2px solid #ccc;
+	background-color: white;
+	border-collapse: collapse;
+}
+
+td{
+	width: 100px;
+	height: 90px;
+}
+
+#r{
+	background-color: red;
+	text-align: center;
+}
+#r p{
+	transform: rotate(45deg);
+	font-style: italic;
+	text-decoration: underline;
+	font-size: 30px;
+}
+#caracola{
+	text-align: center;
+	background-color: green;
+}
+
+#azul{
+	background-color: blue;
+}
+
+#html{
+	text-decoration: underline;
+	text-align: center;
+}
+
+#lol{
+	text-align: center;
+	background-color: purple;
+}
+
+#soida{
+	text-align: right;
+	vertical-align: bottom;
+}
+
+#hola{
+	text-align: center;
+	vertical-align: top;
+}
+
+#pedro{
+	font-family: verdana;
+	font-size: 11px; 
+	text-align: center;
+	transform: rotate(90deg);
+}
+
+#instagram{
+	text-align: center;
+	font-size: 35px;
+}
+
+#insta{
+	color:red;
+}
+
