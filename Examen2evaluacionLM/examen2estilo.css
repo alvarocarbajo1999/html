@@ -1,0 +1,189 @@
+body{
+	margin-left: 30px;
+	background-color: black;
+	color: white;
+	width: 90%;
+}
+
+p{
+	font-family: Arial Rounded MT Bold;
+	color: white;
+}
+
+p.margin{
+	margin-left: -26px;
+	margin-top: 60px;
+	font-size: 18px;
+}
+
+li {
+	font-family: Berlin Sans FB Demi;
+	color: #ffb31a; 
+}
+
+ol li{
+	color: white; 
+}
+
+h1{
+	font-size: 40px;
+	text-align: center;
+	font-family: Berlin Sans FB Demi;
+	color: #ffb31a;
+}
+
+h2{
+	margin-top: 60px;
+	font-family: Berlin Sans FB Demi;
+	color: #ffb31a;
+	font-size: 20px;
+}
+
+h3,h4,h5,h6{
+	display: block;
+	margin-left: 40px;
+}
+
+a{
+	padding: 50px;
+}
+
+div.div1{
+	padding: 50px;
+	background-color: red;
+	position: absolute;
+}
+
+div.div2{
+	padding: 50px;
+	background-color: yellow;
+	margin-left: 160px;
+	position: absolute;
+}
+
+div.div3{
+	padding: 50px;
+	background-color: green;
+	margin-left: 340px;
+	position: absolute;
+	margin-bottom: 100px;
+}
+
+div:hover{
+	z-index: 100;
+}
+
+table, th, td{
+	color: black;
+	border:1px solid #ffb31a;
+	background-color: white;
+}
+
+td{
+	padding: 10px;
+}
+
+label{
+	color: #ffb31a;
+	font-size: 20px;
+}
+
+form{
+	width: 280px;
+	border-radius: 20px;
+	background-color: #f2f2f2;
+	padding: 20px;
+	margin-bottom: 50px;
+}
+
+h2.segundaparte{
+	margin-top: 100px;
+}
+
+input, textarea, select {
+	width: 100%;
+	border-radius: 4px;
+	color: grey;
+}
+
+input[type=submit] {
+	width: 100%;
+	background-color: #4CAF50;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+input[type=reset] {
+	width: 100%;
+	background-color: #F6907B ;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	margin-top: 20px;
+}
+
+input[type=submit]:hover {
+	background-color: #45a049;
+}
+
+input[type=reset]:hover {
+	background-color: #F58067;
+}
+ 
+nav ul {
+	list-style: none;
+	margin: 0px;
+	padding:0px;
+}
+ 
+nav ul li {
+	background:  #ffb31a;
+	float: left;
+	font-family: Arial;
+	font-size: 16px;
+	padding: 20px;
+}
+ 
+nav ul li a {
+	padding: 20px;
+	color: black;
+	text-decoration: none;
+}
+ 
+nav ul li:hover {
+	background: white;
+}
+
+footer{
+	background-color: #ffb31a;
+	padding: 20px;
+}
+
+div.gordo{
+	height: 800px;
+	overflow: scroll;
+	background-color: grey;
+	margin-left: 100px;
+	padding-left: 100px;
+	margin-bottom: 100px;
+}
+
+button{
+	text-decoration: none;
+    padding: 10px;
+    color: white;
+    background-color: #ffb31a;
+    border-radius: 8px;
+    border: 2px solid black;
+}
+
+i{
+	color: red;
+}
